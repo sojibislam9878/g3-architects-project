@@ -76,6 +76,43 @@ margin-top: 1rem;
     width: 100%;
     margin: 4.4rem auto 3rem ;
 }
+/* &header section end here */
+/* !team section start here */
+.team-container{
+    display: flex;
+    justify-content: center;
+    gap: 4.6rem;
+    padding:0 3.75rem;
+}
+.team-text{
+    width: 31%;
+    max-width: 450px;
+    margin-top: 18rem;
+}
+.team-text h3{
+    color: #727272;
+font-size: 45px;
+font-weight: 500;
+}
+.team-text p{
+    color: #727272;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+margin-top: 1.5rem;
+}
+.span1{
+    color: #131313;
+}
+.span2{
+    color: #FF900E;
+}
+.team-pic{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap:1.5rem ;
+    margin-top: 4.5rem;
+}
 
 /* ^responsive part here */
 @media only screen and (max-width: 576px) {
