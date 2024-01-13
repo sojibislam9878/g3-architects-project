@@ -61,7 +61,7 @@ nav ul li a{
 }
 .header-text h1{
     color: #131313;
-font-size: 64px;
+font-size: 4rem;
 font-weight: 700;
 margin-top: 6.4rem;
 }
@@ -75,4 +75,30 @@ margin-top: 1rem;
 .img img{
     width: 100%;
     margin: 4.4rem auto 3rem ;
+}
+
+/* ^responsive part here */
+@media only screen and (max-width: 576px) {
+    .container{
+        width: 90%;
+    }
+    nav {
+        display: flex ;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    nav ul{
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+    nav ul li{
+        
+        text-align: left;
+        border: solid red 2px;
+        padding: 0.5rem;
+    }
+    .header-text h1 {
+        font-size: 3rem;
+        margin-top: 1.5rem;
+    }
 }
